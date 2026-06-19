@@ -4,7 +4,7 @@ app = typer.Typer()
 
 
 @app.command()
-def main(name: str):
+def hello(name: str):
     print(f"Hello {name}")
 
 

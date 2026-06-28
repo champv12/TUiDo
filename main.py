@@ -7,13 +7,13 @@ app = typer.Typer()
 def hello(name: str):
     print(f"Hello {name}")
 
+def create_list(name: str):
+   name = []
+   return name
 
 @app.command()
-def goodbye(name: str, formal: bool = False):
-    if formal:
-        print(f"Goodbye Mr.{name}. have a nice day.")
-    else:
-        print(f"Bye {name}")
+def add_item(item: str, list_name:str)
+    if list
 
 
 if __name__ == "__main__":

@@ -1,14 +1,12 @@
+import json
+from pathlib import Path
 import typer
 
+# initialize the Typer app
 app = typer.Typer()
 
-lists = []
-
-
-@app.command()
-def hello(name: str):
-    print(f"Hello {name}")
-
+# add json implementation here
+# lists = []
 
 @app.command()
 def create_list(name: str):

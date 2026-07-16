@@ -3,9 +3,9 @@
 ## Now
 
 - [ ] Define the supported commands
-- [ ] Add persistent JSON storage
-- [ ] Implement `create-list`
-- [ ] Implement `show-lists`
+- [x] Add persistent JSON storage
+- [x] Implement `create-list`
+- [x] Implement `show-lists`
 
 ## Next
 
